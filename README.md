@@ -26,10 +26,10 @@ GIVEN I need a new, secure password
     The user is asked to select 'ok' if they want the feature and 'cancel' if they don't with a simple window.confirm to minimize user error and input handeling.
 
 - [X] WHEN prompted for the length of the password THEN I choose a length of at least 8 characters and no more than 128 characters
-![](assets/images/password-generator-step2)
+![image of step 2](assets/images/password-generator-step2)
 
 - [X] WHEN prompted for character types to include in the password THEN I choose lowercase, uppercase, numeric, and/or special characters
-![](assets/images/password-generator-step3)
+![image of step3](assets/images/password-generator-step3)
 
 - [X] WHEN I answer each prompt THEN my input should be validated and at least one character type should be selected
 
@@ -42,7 +42,7 @@ In the userInput function, I decided to make an array called passwordPreference 
 
 - [X] WHEN the password is generated THEN the password is either displayed in an alert or written to the page
 
-![](assets/images/password-generator-step4)
+![Image of step4](assets/images/password-generator-step4)
 
 ## Thought Process Through This Assignment
 
@@ -76,7 +76,7 @@ It took me forever to complete this assignment because I was too prideful to adm
 
 - [X] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-- [X]Repository contains quality README file with description, screenshot, and link to deployed application
+- [X] Repository contains quality README file with description, screenshot, and link to deployed application
 
 
 :heart: Jennifer Fadare
