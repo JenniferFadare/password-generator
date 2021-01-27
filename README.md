@@ -26,7 +26,7 @@ GIVEN I need a new, secure password
     The user is asked to select 'ok' if they want the feature and 'cancel' if they don't with a simple window.confirm to minimize user error and input handeling.
 
 - [X] WHEN prompted for the length of the password THEN I choose a length of at least 8 characters and no more than 128 characters
-![image of step 2](assets/images/password-generator-step1.png)
+![image of step 2](assets/images/password-generator-step2.png)
 
 - [X] WHEN prompted for character types to include in the password THEN I choose lowercase, uppercase, numeric, and/or special characters
 ![image of step3](assets/images/password-generator-step3.png)
