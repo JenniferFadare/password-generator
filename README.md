@@ -23,48 +23,60 @@ GIVEN I need a new, secure password
 
 - [X] WHEN prompted for password criteria THEN I select which criteria to include in the password
 
-    The user is asked to select 'ok' if they want the feature and 'cancel' if they don't.
+    The user is asked to select 'ok' if they want the feature and 'cancel' if they don't with a simple window.confirm to minimize user error and input handeling.
 
 - [X] WHEN prompted for the length of the password THEN I choose a length of at least 8 characters and no more than 128 characters
+![](assets/images/password-generator-step2)
 
 - [X] WHEN prompted for character types to include in the password THEN I choose lowercase, uppercase, numeric, and/or special characters
+![](assets/images/password-generator-step3)
 
 - [X] WHEN I answer each prompt THEN my input should be validated and at least one character type should be selected
 
+In the userInput function, I decided to make an array called passwordPreference and defaulted the values of upperCase, lowerCase, specialChars, and numbers to false.  After testing for the password length, I ensured that the code would not continue if the values of the four attributes remained to be false.
+
 - [X] WHEN all prompts are answered THEN a password is generated that matches the selected criteria
+
 
     This was the hardest part of the challenge and took me a while to understand that I was thinking about it too hard.  I achieved this part by creating a character bank and concatonating the possible word banks together, then using the random number feature to pick the position in the character bank array.
 
 - [X] WHEN the password is generated THEN the password is either displayed in an alert or written to the page
 
+![](assets/images/password-generator-step4)
 
 ## Thought Process Through This Assignment
 
+I find that my thought process when approaching solving a problem is linear.  The average coder probably puts the main parts in place then validates the information later, but i find that I think through the problem in order.  I'm going to try to do better on my next assignement.
+
+I did comment out the code that came with the assignment because it confused me.  Now that I'm done i realize what it was for and I'll have to practice reading code that already exists.
+
 ## Contributions
+
+It took me forever to complete this assignment because I was too prideful to admit that this little ol' assignement wasn't hard, but it truely got me.  When I finally tried it out, it took me two TA sessions and a tutor to get the light bulb.  Now I can finally let it go.
 
 ## Grading Requirements
 
 - [X] Satisifies all the acceptance criteria
 
-- [ ] Application deployed at live URL
+- [X] Application deployed at live URL
 
-- [ ] Application GitHub URL submitted
+- [X] Application GitHub URL submitted
 
-- [ ] GitHub repository that contains application code
+- [X] GitHub repository that contains application code
 
-- [ ] Application user experience is intuitive and easy to navigate
+- [X] Application user experience is intuitive and easy to navigate
 
-- [ ] Application UI style is clean and polished
+- [X] Application UI style is clean and polished
 
-- [ ] Application resembles the mock-up functionality provided
+- [X] Application resembles the mock-up functionality provided
 
-- [ ] Repository has a unique name
+- [X] Repository has a unique name
 
-- [ ] Repository follows best practices for file structure and naming conventions
+- [X] Repository follows best practices for file structure and naming conventions
 
-- [ ] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- [X] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-- [ ] Repository contains quality README file with description, screenshot, and link to deployed application
+- [X]Repository contains quality README file with description, screenshot, and link to deployed application
 
 
 :heart: Jennifer Fadare
