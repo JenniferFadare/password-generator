@@ -29,7 +29,7 @@ GIVEN I need a new, secure password
 ![](assets/images/password-generator-step2)
 
 - [X] WHEN prompted for character types to include in the password THEN I choose lowercase, uppercase, numeric, and/or special characters
-![](assets/images/password-generator-step3)
+![assets/images/password-generator-step3]
 
 - [X] WHEN I answer each prompt THEN my input should be validated and at least one character type should be selected
 
