@@ -19,19 +19,23 @@ https://jenniferfadare.github.io/password-generator/
 
 GIVEN I need a new, secure password
 
-- [ ] WHEN I click the button to generate a password THEN I am presented with a series of prompts for password criteria
+- [X] WHEN I click the button to generate a password THEN I am presented with a series of prompts for password criteria
 
-- [ ] WHEN prompted for password criteria THEN I select which criteria to include in the password
+- [X] WHEN prompted for password criteria THEN I select which criteria to include in the password
 
-- [ ] WHEN prompted for the length of the password THEN I choose a length of at least 8 characters and no more than 128 characters
+    The user is asked to select 'ok' if they want the feature and 'cancel' if they don't.
 
-- [ ] WHEN prompted for character types to include in the password THEN I choose lowercase, uppercase, numeric, and/or special characters
+- [X] WHEN prompted for the length of the password THEN I choose a length of at least 8 characters and no more than 128 characters
 
-- [ ] WHEN I answer each prompt THEN my input should be validated and at least one character type should be selected
+- [X] WHEN prompted for character types to include in the password THEN I choose lowercase, uppercase, numeric, and/or special characters
 
-- [ ] WHEN all prompts are answered THEN a password is generated that matches the selected criteria
+- [X] WHEN I answer each prompt THEN my input should be validated and at least one character type should be selected
 
-- [ ] WHEN the password is generated THEN the password is either displayed in an alert or written to the page
+- [X] WHEN all prompts are answered THEN a password is generated that matches the selected criteria
+
+    This was the hardest part of the challenge and took me a while to understand that I was thinking about it too hard.  I achieved this part by creating a character bank and concatonating the possible word banks together, then using the random number feature to pick the position in the character bank array.
+
+- [X] WHEN the password is generated THEN the password is either displayed in an alert or written to the page
 
 
 ## Thought Process Through This Assignment
@@ -40,7 +44,7 @@ GIVEN I need a new, secure password
 
 ## Grading Requirements
 
-- [ ] Satisifies all the acceptance criteria
+- [X] Satisifies all the acceptance criteria
 
 - [ ] Application deployed at live URL
 
