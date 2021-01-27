@@ -33,7 +33,7 @@ while(passwordPreference.lowerCase == false && passwordPreference.numbers == fal
   passwordPreference.numbers = window.confirm("Select 'Ok' to choose numbers, if not press 'Cancel'");
 
   if(passwordPreference.lowerCase == false && passwordPreference.numbers == false && passwordPreference.specialChar == false && passwordPreference.upperCase == false){
-    window.alert("Hey, bro. You need to pick one at least. Yo. Man. Girl. Dude.")
+    window.alert("Hey, bro. You need to pick one at least.")
   }
 }
   
